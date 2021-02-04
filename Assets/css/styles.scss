@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #333333;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .row {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+.container {
+  margin: 2.5rem 4.8125rem;
+}
+
+.logo-name {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+}
+
+.hero-main-section {
+  margin-top: 12.5rem;
+  .space {
+    margin: 3.75rem;
+  }
+}
+
+.hero-image img {
+  width: 33.75rem;
+}
+
+.call-to-action {
+  font-family: "Space Mono", monospace;
+  letter-spacing: -0.035rem;
+  h1 {
+    font-size: 64px;
+    line-height: 95px;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 2.25rem;
+    color: #4f4f4f;
+  }
+  button {
+    font-size: 14px;
+    line-height: 1.3125rem;
+    margin-top: 4rem;
+  }
+}
+
+button {
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.3125rem;
+  border: none;
+  letter-spacing: -0.035rem;
+  background-color: black;
+  color: white;
+  padding: 1.875rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  span {
+    font-family: "Montserrat", sans-serif;
+  }
+}
